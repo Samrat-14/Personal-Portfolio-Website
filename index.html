@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samrat Sadhu - Personal Portfolio Website</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#interest" onclick="toggleMenu();">Interests</a></li>
+            <li><a href="#skill" onclick="toggleMenu();">Skills</a></li>
+            <li><a href="#education" onclick="toggleMenu();">Education</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Experience</a></li>
+            <li><a href="#project" onclick="toggleMenu();">Projects</a></li>
+            <li><a href="#achievement" onclick="toggleMenu();">Achievements</a></li>
+            <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+        </ul>
+    </header>
+
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Hello, I'm<br><span>Samrat Sadhu</span></h2>
+            <h3>I'm a Web Developer</h3>
+            <div class="splbtncont">
+                <a href="https://samrat-14.github.io/Curriculum-Vitae/" target="_blank" class="splbtn"><svg>
+                        <rect></rect>
+                    </svg>My Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>I'm a Web Developer</h3>
+                <p>An innovator, hard worker and a quick learner looking for a position in the research field to utilise my technical and managerial skills and explore my career options in future.</p>
+                <a href="./images/resume.docx" class="btn" download="SamratSadhu-resume">Download CV</a>
+            </div>
+            <div class="w50">
+                <img src="./images/img.jpg" class="img">
+            </div>
+        </div>
+    </section>
+
+    <section class="interest" id="interest">
+        <div class="heading white">
+            <h2>Interests</h2>
+        </div>
+        <div class="content">
+            <div class="interestBx">
+                <img src="./images/icons/coding.png">
+                <h2>Competitive Programming</h2>
+                <p>I like to code in programming languages like pyhton and c++, and take part in online coding contest platfroms like Codechef to enhance my coding skills further.</p>
+            </div>
+            <div class="interestBx">
+                <img src="./images/icons/webdesign.png">
+                <h2>Web Design</h2>
+                <p>I design web pages for frontend with proper responsiveness and dynamic graphics, enriched with creativity.</p>
+            </div>
+            <div class="interestBx">
+                <img src="./images/icons/webdev.png">
+                <h2>Web Development</h2>
+                <p>I develop websites, design the frontend and built the backend as well to support the website and prepare them ready enough for hosting.</p>
+            </div>
+            <div class="interestBx">
+                <img src="./images/icons/paint.png">
+                <h2>Painting</h2>
+                <p>I love to paint in my leisure times. My paintings include potraits, still life, outdoors, oil paintings on canvas, wall paintings and several sketches.
+                </p>
+            </div>
+            <div class="interestBx">
+                <img src="./images/icons/music.png">
+                <h2>Harmonica</h2>
+                <p>I play harmonica whenever I get any spare time for it. It's a wind instrument and I love the melody it creates; soothes way all anxieties!</p>
+            </div>
+            <div class="interestBx">
+                <img src="./images/icons/puzzle.png">
+                <h2>Rubik's Cube</h2>
+                <p>I like to solve the rubik's cube whenever my fingers are free from any work. I've solved the 3x3, 4x4, mirror cube. The fastest solve of 3x3 of mine has been 39 seconds :)</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="skill" id="skill">
+        <div class="heading">
+            <h2>Skills</h2>
+        </div>
+        <div class="content">
+            <div class="contentBx w50">
+                <h3>Technical Skills</h3>
+                <div class="techskills">
+                    <span class="name">Html</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 95%;"></div>
+                    </div>
+                    <span class="value">95%</span>
+                </div>
+                <div class="techskills">
+                    <span class="name">CSS</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                    <span class="value">90%</span>
+                </div>
+                <div class="techskills">
+                    <span class="name">Javascript</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 75%;"></div>
+                    </div>
+                    <span class="value">75%</span>
+                </div>
+                <div class="techskills">
+                    <span class="name">Python</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                    <span class="value">90%</span>
+                </div>
+                <div class="techskills">
+                    <span class="name">C++</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 70%;"></div>
+                    </div>
+                    <span class="value">70%</span>
+                </div>
+                <div class="techskills">
+                    <span class="name">Sketchbook</span>
+                    <div class="percent">
+                        <div class="progress" style="width: 90%;"></div>
+                    </div>
+                    <span class="value">90%</span>
+                </div>
+            </div>
+
+            <div class="contentBx w50">
+                <h3>Professional Skills</h3>
+                <div class="profskills">
+                    <div class="card">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>90<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 class="text">Algorithm</h2>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>80<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 class="text">Leadership</h2>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>75<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 class="text">Team Work</h2>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <div class="percent">
+                                <svg>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                    <circle cx="70" cy="70" r="70"></circle>
+                                </svg>
+                                <div class="number">
+                                    <h2>85<span>%</span></h2>
+                                </div>
+                            </div>
+                            <h2 class="text">Algorithm</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <div class="heading">
+            <h2>Education</h2>
+        </div>
+        <div class="content">
+            <div class="card">
+                <div class="box">
+                    <div class="contents">
+                        <h2>01</h2>
+                        <h3>Secondary Education</h3>
+                        <p>I completed my secondary education from S.K.S. Public School, Mangalpur, Raniganj affiliated to Central Board of Secondary Education, securing 95.2%</p>
+                        <a href="http://sksps.com/" target="_blank">Visit page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="contents">
+                        <h2>02</h2>
+                        <h3>Higher Secondary Education</h3>
+                        <p>I completed my higher secondary education from S.K.S. Public School, Mangalpur, Raniganj affiliated to Central Board of Secondary Education, securing 97.6%</p>
+                        <a href="http://sksps.com/" target="_blank">Visit page</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="box">
+                    <div class="contents">
+                        <h2>03</h2>
+                        <h3>Jalpaiguri Government Engineering College</h3>
+                        <p>I am persuing Electronics and Communication Engineering from Jalpaiguri Government Engineering College</p>
+                        <a href="https://jgec.ac.in/" target="_blank">Visit page</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="work" id="work">
+        <div class="heading">
+            <h2>Experience</h2>
+        </div>
+        <div class="content">
+            <div class="card">
+                <div class="imgBx" data-text="Placement Coordinator">
+                    <img src="./images/icons/lead.png">
+                </div>
+                <div class="contents">
+                    <div>
+                        <h3>Placement Coordinator</h3>
+                        <p>I am Placement Coordinator at the Training and Placement Cell, Jalpaiguri Government Engineering College.</p>
+                        <a href="https://www.linkedin.com/in/placement-cell-jgec-4348971a5/?originalSubdomain=in" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="card">
+                <div class="imgBx" data-text="Corporate Ambassador">
+                    <img src="./images/icons/work2.png">
+                </div>
+                <div class="contents">
+                    <div>
+                        <h3>Corporate Ambassador</h3>
+                        <p>I am Corporate Ambassador at IFortis Corporate, one of India's leading corporate.</p>
+                        <a href="https://www.linkedin.com/company/ifortis-corporate/mycompany/" target="_blank">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project" id="project">
+        <div class="heading">
+            <h2>Projects</h2>
+        </div>
+        <div class="content">
+            <div class="card">
+                <div class="icon">
+                    <img src="./images/icons/android.png">
+                </div>
+                <div class="contents">
+                    <h3>Desktop Voice Assistant</h3>
+                    <p>Personal virtual voice assistant programmed in python capable of carrying out several tasks, powered using machine learning and neural networks. It can perform simple day-to-day tasks ranging from voice command input for taking notes to speaking audio books. It can provide news updates, weather reports, open browser on command, play youtube videos. Play a song from offline or online; just give a voice command to have it done for you.</p>
+                </div>
+                <a class="more"></a>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="./images/icons/writing.png">
+                </div>
+                <div class="contents">
+                    <h3>E-Commerce Scraper</h3>
+                    <p>E-Commerce scraper powered by web scraping tools in python to scrape desired products, prices and rating, for better comparison from Flipkart. It uses python modules to scrape the data from the website and render it in the desired way to the user.</p>
+                </div>
+                <a class="more"></a>
+            </div>
+            <div class="card">
+                <div class="icon">
+                    <img src="./images/icons/video.png">
+                </div>
+                <div class="contents">
+                    <h3>Sorting Algorithm Visualizer</h3>
+                    <p>A Sorting Algorithm Visualizer made in python with graphical user interface to visualize sorting algorithms like merge sort, bubble sort, quick sort and perceive how they work for the better understanding. The program animates the sorting of bars according to their heights following the selected sorting algorithm.</p>
+                </div>
+                <a class="more"></a>
+            </div>
+        </div>
+    </section>
+
+    <section class="achievement" id="achievement">
+        <div class="heading">
+            <h2>Achievements</h2>
+        </div>
+        <div class="content">
+            <div class="box">
+                <span style="--i:1;"><img src="./images/achievements/Aesthetic Cutural 2k21.jpg"></span>
+                <span style="--i:2;"><img src="./images/achievements/Google kickstart round C.jpg"></span>
+                <span style="--i:3;"><img src="./images/achievements/Hackerrank CSS.jpg"></span>
+                <span style="--i:4;"><img src="./images/achievements/Hackerrank Python.jpg"></span>
+                <span style="--i:5;"><img src="./images/achievements/JWOC_2021.png"></span>
+                <span style="--i:6;"><img src="./images/achievements/Kaggle Python Course.png"></span>
+                <span style="--i:7;"><img src="./images/achievements/Personal Branding.jpg"></span>
+                <span style="--i:8;"><img src="./images/achievements/TIMES FutureShine.jpg"></span>
+                <span style="--i:9;"><img src="./images/achievements/Treasure Hunt 2k21.jpg"></span>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="heading white">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="content">
+            <div class="contactInfo">
+                <h3>Contact Info</h3>
+                <div class="contactInfoBx">
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-map-marker"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Address</h3>
+                            <p>J L Nehru Road,<br>Raniganj, Pashim Bardhaman,<br> West Bengal, India<br>713347</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Phone</h3>
+                            <p>+91-7074158262</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-envelope-o"></i>
+                        </div>
+                        <div class="text">
+                            <h3>Email</h3>
+                            <p>samratdewdrops0@gmail.com</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div class="icon">
+                            <i class="fa fa-linkedin"></i>
+                        </div>
+                        <div class="text">
+                            <h3>LinkedIn</h3>
+                            <p>Samrat Sadhu - LinkedIn</p>
+                            <a href="https://www.linkedin.com/in/samrat-sadhu-744874202/" target="_blank">Click here for profile</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="formBx">
+                <form>
+                    <h3>Message Me</h3>
+                    <input type="text" placeholder="Full Name" id="fullname">
+                    <input type="email" placeholder="Email" id="email">
+                    <textarea placeholder="Your Message" id="message"></textarea>
+                    <input type="reset" value="Send" id="submit">
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <div class="copyright">
+        <p>Copyright &copy; 2021 Samrat Sadhu - Portfolio. All Rights Reserved.</p>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>
