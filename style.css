@@ -337,6 +337,12 @@ header.sticky ul li a{
 .skill .content .contentBx .techskills:nth-child(7) .percent .progress{
     background: linear-gradient(45deg, #ffb222, #c921f3);
 }
+.skill .content .contentBx .techskills:nth-child(8) .percent .progress{
+    background: linear-gradient(45deg, #eb280f, #e9dd36);
+}
+.skill .content .contentBx .techskills:nth-child(9) .percent .progress{
+    background: linear-gradient(45deg, #4c2dda, #e0085b);
+}
 
 .skill .content .contentBx .profskills{
     position: relative;
@@ -448,7 +454,7 @@ header.sticky ul li a{
     transition: 0.5s;
 }
 .skill .content .contentBx .profskills .card:nth-child(1) svg circle:nth-child(2){
-    stroke-dashoffset: calc(440 - (440*90) / 100);
+    stroke-dashoffset: calc(440 - (440*95) / 100);
     stroke: #00ff43;
 }
 .skill .content .contentBx .profskills .card:nth-child(2) svg circle:nth-child(2){
@@ -854,11 +860,10 @@ header.sticky ul li a{
     margin-bottom: 0;
 }
 .contactInfoBx .box .text a{
-    margin-left: 25px;
     text-decoration: none;
-    font-size: 14px;
+    font-size: 16px;
     color: #fff;
-    font-weight: 200;
+    font-weight: 300;
 }
 
 .formBx{
